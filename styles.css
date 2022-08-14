@@ -1,0 +1,68 @@
+/* 
+SPACING SYSTEM:
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT-SIZES: 
+48px, 39px, 31px, 25px, 20px, 16px, 13px, 10px, 8px 
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1480px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212529;
+  background-color: #f1f3f5;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 48px;
+  margin: 64px;
+  font-size: 25px;
+  color: #212529;
+}
+
+.ferrari-img {
+  width: 100%;
+  height: 100%;
+}
+
+.first-span {
+  color: #000;
+}
+
+.second-span {
+  color: #c92a2a;
+}
+
+.title {
+  margin-bottom: 48px;
+}
+
+.header-p {
+  line-height: 1.6;
+  font-size: 25px;
+  margin-bottom: 32px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: #c92a2a;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 32px;
+}
