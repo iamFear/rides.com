@@ -1,0 +1,63 @@
+/* 
+SPACING SYSTEM:
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT-SIZES: 
+48px, 39px, 31px, 25px, 20px, 16px, 13px, 10px, 8px 
+*/
+
+/* COLORS
+#dee2e6
+#f1f3f5
+#c92a2a
+#101010
+*/
+
+/* GENERAL STYLES */
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #f1f3f5;
+}
+
+/* REUSABLE COMPONENTS */
+
+.container {
+  max-width: 140rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* COMPONENTS STYLE */
+
+.header-section {
+  max-width: 100vw;
+  height: 100vh;
+  background-color: #101010;
+}
+
+.header {
+  padding: 2.4rem;
+}
+
+.header-title {
+  font-size: 4.2rem;
+}
